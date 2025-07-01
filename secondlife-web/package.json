@@ -1,0 +1,33 @@
+{
+  "name": "secondlife-web",
+  "version": "1.0.0",
+  "description": "二手手机论坛前端网站",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "element-ui": "^2.15.14",
+    "vant": "^2.12.54",
+    "vue": "^2.7.16",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.27.5",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "eslint": "^8.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

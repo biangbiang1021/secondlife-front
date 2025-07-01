@@ -1,0 +1,29 @@
+{
+  "name": "second-hand-phone-forum-project",
+  "version": "1.0.0",
+  "description": "二手手机论坛项目 - 包含前台和后台管理系统",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd secondlife-web && npm run serve",
+    "admin": "cd secondlife-admin && npm run serve",
+    "frontend:build": "cd secondlife-web && npm run build",
+    "admin:build": "cd secondlife-admin && npm run build",
+    "frontend:install": "cd secondlife-web && npm install",
+    "admin:install": "cd secondlife-admin && npm install",
+    "install:all": "npm run frontend:install && npm run admin:install",
+    "dev": "concurrently \"npm run frontend\" \"npm run admin\"",
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "vue",
+    "forum",
+    "admin",
+    "second-hand",
+    "phone"
+  ],
+  "author": "Development Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
